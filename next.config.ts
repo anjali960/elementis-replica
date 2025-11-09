@@ -1,9 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: "export", // ✅ enables static export for Netlify
+  output: "export",
   images: {
-    unoptimized: true, // disables next/image optimization (needed for static export)
+    unoptimized: true,
   },
 };
 
